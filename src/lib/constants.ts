@@ -1,0 +1,9 @@
+export const SITE_NAME = 'Best Barcelona Tours';
+export const SITE_CITY = 'Barcelona';
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.best-barcelona-tours.com';
+export const SITE_DESCRIPTION = 'Discover the best tours, attractions, and experiences in Barcelona. Book skip-the-line tickets for the Sagrada Família, Park Güell, Casa Batlló, and Montserrat day trips with instant confirmation and free cancellation.';
+export const GYG_PARTNER_ID = 'LPT26IL';
+export const GYG_CAMPAIGN = 'best_barcelona_tours';
+export const GYG_LOCATION_ID = '45';
+export const GA_ID = process.env.NEXT_PUBLIC_GA_ID || '';
+export const CONTENT_DATE = '2026-07-08';
