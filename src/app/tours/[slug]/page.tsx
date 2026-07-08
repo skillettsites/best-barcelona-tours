@@ -64,7 +64,7 @@ export default async function TourPage({ params }: { params: Params }) {
 
   const relatedTours = getRelatedTours(tour).slice(0, 3);
 
-  // "Or book instead" — destination's top converter (Barcelona for BLT)
+  // "Or book instead", destination's top converter (Barcelona for BLT)
   const topConverter = TOP_CONVERTER_BY_DESTINATION.barcelona;
   const altTour = topConverter && topConverter.slug !== tour.slug ? getTourBySlug(topConverter.slug) : null;
 
