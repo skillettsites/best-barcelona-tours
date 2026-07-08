@@ -15,7 +15,7 @@ export const tours: Tour[] = [
     rating: 4.6,
     reviewCount: 115052,
     imageAlt: 'Barcelona: Sagrada Familia Entry Ticket with Audio Guide — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/62bacf6a87bba.jpeg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/62bacf6a87bba.jpeg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -48,7 +48,7 @@ export const tours: Tour[] = [
     rating: 3.6,
     reviewCount: 330,
     imageAlt: 'Barcelona: Sagrada Familia Decoded Guided Tour — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/5392b2f3f9f444d70f5a4890360faf52cc33092aa6e425b7bf0a27381d9def22.jpg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/5392b2f3f9f444d70f5a4890360faf52cc33092aa6e425b7bf0a27381d9def22.jpg/145.jpg',
     categories: ['guided-tours'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -81,7 +81,7 @@ export const tours: Tour[] = [
     rating: 4.4,
     reviewCount: 6035,
     imageAlt: 'Barcelona: Sagrada Familia Skip-the-Line Guided Tour — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/62053657625bc.jpeg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/62053657625bc.jpeg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -114,7 +114,7 @@ export const tours: Tour[] = [
     rating: 4.8,
     reviewCount: 14289,
     imageAlt: 'Barcelona: Sagrada Familia Skip-the-Line Entry Ticket & Tour — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/448290a706817776.jpeg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/448290a706817776.jpeg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -147,7 +147,7 @@ export const tours: Tour[] = [
     rating: 4.4,
     reviewCount: 84891,
     imageAlt: 'Barcelona: Park Güell Admission Ticket — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/93473fd2896a1e0e.jpeg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/93473fd2896a1e0e.jpeg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -180,7 +180,7 @@ export const tours: Tour[] = [
     rating: 4.8,
     reviewCount: 5925,
     imageAlt: 'Barcelona: Sagrada Familia Priority Access Guided Tour — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/e411a73492224484490d9af4bb8f960af11912dabea80ffb65b0b61e4ee4f15e.jpg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/e411a73492224484490d9af4bb8f960af11912dabea80ffb65b0b61e4ee4f15e.jpg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -213,7 +213,7 @@ export const tours: Tour[] = [
     rating: 4.7,
     reviewCount: 1391,
     imageAlt: 'Barcelona: Park Güell & La Sagrada Familia Tickets and Tour — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/63888edf81b71.jpeg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/63888edf81b71.jpeg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -246,7 +246,7 @@ export const tours: Tour[] = [
     rating: 4.8,
     reviewCount: 174,
     imageAlt: 'Sagrada Familia Priority Entry & Expert Guided Tour — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/f3203740c84caccd45739e159dc31364845aa01746b44a98fa7839f655aba9f2.jpg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/f3203740c84caccd45739e159dc31364845aa01746b44a98fa7839f655aba9f2.jpg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -279,7 +279,7 @@ export const tours: Tour[] = [
     rating: 4.6,
     reviewCount: 8241,
     imageAlt: 'Barcelona: Montserrat Tour with Cog-Wheel & Black Madonna — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/63580375c2779b096cbc8dbdfb82c3e16efd2021569cccea569462ef6f554aee.jpg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/63580375c2779b096cbc8dbdfb82c3e16efd2021569cccea569462ef6f554aee.jpg/145.jpg',
     categories: ['guided-tours'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -312,7 +312,7 @@ export const tours: Tour[] = [
     rating: 4.3,
     reviewCount: 5565,
     imageAlt: 'Barcelona: Sagrada Familia Guided Tour with Tower Access — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/41d2820d036a5370c6ffa4849fbf9e784ba957e6f39eb9c94c294917f88c85fc.jpg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/41d2820d036a5370c6ffa4849fbf9e784ba957e6f39eb9c94c294917f88c85fc.jpg/145.jpg',
     categories: ['guided-tours'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -345,7 +345,7 @@ export const tours: Tour[] = [
     rating: 4.9,
     reviewCount: 2670,
     imageAlt: 'Costa Brava Tour: Kayak, Snorkel & Cliff Jump from Barcelona — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/640f0704d14b6.png/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/640f0704d14b6.png/145.jpg',
     categories: ['guided-tours'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -378,7 +378,7 @@ export const tours: Tour[] = [
     rating: 4.6,
     reviewCount: 573,
     imageAlt: 'Casa Batlló Night Visit with Live Music on the Roof Terrace — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/6a9ea1259daeecc709039fcd70025917ebfd6b6e2c0f71420cec3dff9d0919c8.jpg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/6a9ea1259daeecc709039fcd70025917ebfd6b6e2c0f71420cec3dff9d0919c8.jpg/145.jpg',
     categories: ['top-attractions'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -411,7 +411,7 @@ export const tours: Tour[] = [
     rating: 3.6,
     reviewCount: 6,
     imageAlt: 'From Barcelona: Mont Rebei Canyon Day Trip with Guide — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/1b9fa531e6a257d3e5aeedc614f865f9a77ab95fb18b23f165cdfb92cf7ae578.jpg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/1b9fa531e6a257d3e5aeedc614f865f9a77ab95fb18b23f165cdfb92cf7ae578.jpg/145.jpg',
     categories: ['guided-tours'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -444,7 +444,7 @@ export const tours: Tour[] = [
     rating: 4.5,
     reviewCount: 11793,
     imageAlt: 'Barcelona: Flamenco Show at the Theater &quot;City Hall&quot; — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/8d94bb036f911af8.jpeg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/8d94bb036f911af8.jpeg/145.jpg',
     categories: ['food-drink'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -477,7 +477,7 @@ export const tours: Tour[] = [
     rating: 4.7,
     reviewCount: 29713,
     imageAlt: 'Barcelona: Casa Batlló Entry with Self-Audioguide Tour — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/aa3ab6c4aaa9cc0c.jpeg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/aa3ab6c4aaa9cc0c.jpeg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -510,7 +510,7 @@ export const tours: Tour[] = [
     rating: 4.4,
     reviewCount: 23043,
     imageAlt: 'Barcelona City Tour Hop-On Hop-Off Bus Tour — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/5e171de5001c0983e952afec01e3c681c9ff5e451f649d366f14be8452a7ce09.jpg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/5e171de5001c0983e952afec01e3c681c9ff5e451f649d366f14be8452a7ce09.jpg/145.jpg',
     categories: ['guided-tours'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -543,7 +543,7 @@ export const tours: Tour[] = [
     rating: 4,
     reviewCount: 108,
     imageAlt: 'Barcelona Top Night Club Experience + VIP Club Entry — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/8129a4197a201fd1a7d422fd6bcb157846e50698e041143ae848625a4eb4d4a6.jpeg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/8129a4197a201fd1a7d422fd6bcb157846e50698e041143ae848625a4eb4d4a6.jpeg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -576,7 +576,7 @@ export const tours: Tour[] = [
     rating: 4.7,
     reviewCount: 20762,
     imageAlt: 'Barcelona: Park Guell Guided Tour with Skip The Line Entry — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/ce92bfd0b52bdc20679ddecfb9d8a1172b8f6887152ca3ecc858e004d5fad601.png/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/ce92bfd0b52bdc20679ddecfb9d8a1172b8f6887152ca3ecc858e004d5fad601.png/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -609,7 +609,7 @@ export const tours: Tour[] = [
     rating: 4.7,
     reviewCount: 646,
     imageAlt: 'Barcelona: Sagrada Familia, Park Güell & Gothic Quarter Tour — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/638898c552d00.jpeg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/638898c552d00.jpeg/145.jpg',
     categories: ['guided-tours'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -642,7 +642,7 @@ export const tours: Tour[] = [
     rating: 4.7,
     reviewCount: 6548,
     imageAlt: 'Barcelona: Gaudí’s Park Güell Tour with Fast-Track Ticket — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/12261969cccf19bd40150fb39169265536f883fe5cd60c3ea0d66b3cce57517f.jpg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/12261969cccf19bd40150fb39169265536f883fe5cd60c3ea0d66b3cce57517f.jpg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -675,7 +675,7 @@ export const tours: Tour[] = [
     rating: 4.5,
     reviewCount: 1335,
     imageAlt: 'Barcelona: Sagrada Familia Skip-the-line Tour with Guide — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/79b1bf4909c4cd2264567eb9c5862c2085ddb5e62b31eabb58e691bf94fe26e0.jpg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/79b1bf4909c4cd2264567eb9c5862c2085ddb5e62b31eabb58e691bf94fe26e0.jpg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -708,7 +708,7 @@ export const tours: Tour[] = [
     rating: 4.3,
     reviewCount: 12931,
     imageAlt: 'Barcelona: FC Barcelona Museum &quot;Barça Immersive Tour&quot; Ticket — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/6482d923576aa.jpeg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/6482d923576aa.jpeg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -741,7 +741,7 @@ export const tours: Tour[] = [
     rating: 4.5,
     reviewCount: 8343,
     imageAlt: 'Barcelona: Park Güell and Gaudí House Museum Entry Ticket — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/94a05b2b5cc244e5624a92ffd8d9790f520696b76dfd80c956f5e39c42933075.jpg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/94a05b2b5cc244e5624a92ffd8d9790f520696b76dfd80c956f5e39c42933075.jpg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -774,7 +774,7 @@ export const tours: Tour[] = [
     rating: 4.4,
     reviewCount: 18343,
     imageAlt: 'Barcelona Aquarium: Entry Ticket — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/086f74df2002c7a9.jpeg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/086f74df2002c7a9.jpeg/145.jpg',
     categories: ['skip-the-line'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -840,7 +840,7 @@ export const tours: Tour[] = [
     rating: 4.3,
     reviewCount: 6492,
     imageAlt: 'Barcelona: Daytime or Sunset Catamaran Cruise with Music — Barcelona',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/3ecef59ec9ea0806539f0cdea9af0f803daabccfbb11c36bf781810e9a1469d6.jpg/53.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/3ecef59ec9ea0806539f0cdea9af0f803daabccfbb11c36bf781810e9a1469d6.jpg/145.jpg',
     categories: ['food-drink'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
