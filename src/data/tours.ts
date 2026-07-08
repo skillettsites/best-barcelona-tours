@@ -4,7 +4,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-sagrada-familia-entry-ticket-with-audio-guide',
     title: 'Barcelona: Sagrada Familia Entry Ticket with Audio Guide',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Sagrada Familia Entry Ticket with Audio Guide',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Sagrada Familia Entry Ticket with Audio Guide in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.6★ by 115,052…',
     description: 'Gain access to Gaudi\'s unfinished masterpiece, the Sagrada Familia, and explore Barcelona\'s most-visited landmark at your own pace with an informative…',
@@ -37,7 +37,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-sagrada-familia-decoded-guided-tour',
     title: 'Barcelona: Sagrada Familia Decoded Guided Tour',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Sagrada Familia Decoded Guided Tour',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Sagrada Familia Decoded Guided Tour in Barcelona. Instant confirmation, free cancellation on most options. Rated 3.6★ by 330 travellers.',
     description: 'Discover Antoni Gaudí’s masterpiece through one of two carefully designed tour options, each offering a different way to experience Barcelona’s most…',
@@ -70,7 +70,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-sagrada-familia-skip-the-line-guided-tour',
     title: 'Barcelona: Sagrada Familia Skip-the-Line Guided Tour',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Sagrada Familia Skip-the-Line Guided Tour',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Sagrada Familia Skip-the-Line Guided Tour in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.4★ by 6,035…',
     description: 'Visit Barcelona\'s majestic Sagrada Familia, designed by the Modernist visionary Antoni Gaudí. Get fast track entry to this Art Nouveau masterpiece and…',
@@ -103,7 +103,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-sagrada-familia-skip-the-line-entry-ticket-and-tou',
     title: 'Barcelona: Sagrada Familia Skip-the-Line Entry Ticket & Tour',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Sagrada Familia Skip-the-Line Entry Ticket & Tour',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Sagrada Familia Skip-the-Line Entry Ticket & Tour in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.8★ by…',
     description: 'Visit the Sagrada Familia with an expert guide, skip-the-ticket-line access and the choice of a small-group or private experience.',
@@ -136,7 +136,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-park-g-ell-admission-ticket',
     title: 'Barcelona: Park Güell Admission Ticket',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Park Güell Admission Ticket',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Park Güell Admission Ticket in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.4★ by 84,891 travellers.',
     description: 'Visit Park Güell, one of Gaudí’s major works in Barcelona. Take in spectacular views of Barcelona and explore this stunning green space that’s surrounded…',
@@ -169,7 +169,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-sagrada-familia-priority-access-guided-tour',
     title: 'Barcelona: Sagrada Familia Priority Access Guided Tour',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Sagrada Familia Priority Access Guided Tour',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Sagrada Familia Priority Access Guided Tour in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.8★ by 5,925…',
     description: 'Experience Gaudí\'s Sagrada Família with this exclusive guided tour. Skip the long ticket lines and immerse yourself in this iconic landmark\'s mesmerizing…',
@@ -202,7 +202,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-park-g-ell-and-la-sagrada-familia-tickets-and-tour',
     title: 'Barcelona: Park Güell & La Sagrada Familia Tickets and Tour',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Park Güell & La Sagrada Familia Tickets and Tour',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Park Güell & La Sagrada Familia Tickets and Tour in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.7★ by 1,391…',
     description: 'Enjoy priority access on a visit to 2 of Gaudí\'s masterworks in Barcelona with skip-the-line entrance tickets to the Park Güell & Sagrada Familia…',
@@ -268,7 +268,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-montserrat-tour-with-cog-wheel-and-black-madonna',
     title: 'Barcelona: Montserrat Tour with Cog-Wheel & Black Madonna',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Montserrat Tour with Cog-Wheel & Black Madonna',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Montserrat Tour with Cog-Wheel & Black Madonna in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.6★ by 8,241…',
     description: 'Ascend Montserrat on this half-day trip from Barcelona. Enjoy a scenic ride aboard a cog-wheel train, visit the Royal Basilica to see the Black Virgin…',
@@ -301,7 +301,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-sagrada-familia-guided-tour-with-tower-access',
     title: 'Barcelona: Sagrada Familia Guided Tour with Tower Access',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Sagrada Familia Guided Tour with Tower Access',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Sagrada Familia Guided Tour with Tower Access in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.3★ by 5,565…',
     description: 'Skip the long lines to the Sagrada Familia in Barcelona, and enjoy a guided tour of Gaudí’s Modernisme masterpiece.',
@@ -433,7 +433,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-flamenco-show-at-the-theater-and-quot-city-hall-an',
     title: 'Barcelona: Flamenco Show at the Theater &quot;City Hall&quot;',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Flamenco Show at the Theater &quot;City Hall&quot;',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Flamenco Show at the Theater &quot;City Hall&quot; in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.5★ by…',
     description: 'Experience the passion of flamenco music and dance with a ticket to a 1-hour performance at Barcelona\'s historic "City Hall" Theater.',
@@ -466,7 +466,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-casa-batll-entry-with-self-audioguide-tour',
     title: 'Barcelona: Casa Batlló Entry with Self-Audioguide Tour',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Casa Batlló Entry with Self-Audioguide Tour',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Casa Batlló Entry with Self-Audioguide Tour in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.7★ by 29,713…',
     description: 'Discover Casa Batlló, a UNESCO World Heritage Site, in an immersive experience. Explore one of Gaudí’s masterpieces while learning about him.',
@@ -565,7 +565,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-park-guell-guided-tour-with-skip-the-line-entry',
     title: 'Barcelona: Park Guell Guided Tour with Skip The Line Entry',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Park Guell Guided Tour with Skip The Line Entry',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Park Guell Guided Tour with Skip The Line Entry in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.7★ by 20,762…',
     description: 'Enjoy a guided walking tour of Park Guell with skip-the-line entrance. Soak in stunning views of Barcelona while exploring this green park with modernist…',
@@ -598,7 +598,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-sagrada-familia-park-g-ell-and-gothic-quarter-tour',
     title: 'Barcelona: Sagrada Familia, Park Güell & Gothic Quarter Tour',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Sagrada Familia, Park Güell & Gothic Quarter Tour',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Sagrada Familia, Park Güell & Gothic Quarter Tour in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.7★ by 646…',
     description: 'Discover Barcelona in one day on a guided tour of the Gothic Quarter and El Born. Enjoy panoramic views from Montjuïc and Park Güell, and then step into…',
@@ -631,7 +631,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-gaud-s-park-g-ell-tour-with-fast-track-ticket',
     title: 'Barcelona: Gaudí’s Park Güell Tour with Fast-Track Ticket',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Gaudí’s Park Güell Tour with Fast-Track Ticket',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Gaudí’s Park Güell Tour with Fast-Track Ticket in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.7★ by 6,548…',
     description: 'Discover Park Güell\'s enchantment with an expert on a guided tour with skip-the-line tickets. See Gaudí\'s artistry against Barcelona\'s stunning panorama…',
@@ -664,7 +664,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-sagrada-familia-skip-the-line-tour-with-guide',
     title: 'Barcelona: Sagrada Familia Skip-the-line Tour with Guide',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Sagrada Familia Skip-the-line Tour with Guide',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Sagrada Familia Skip-the-line Tour with Guide in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.5★ by 1,335…',
     description: 'Experience the breathtaking beauty of the Sagrada Familia with this 1.5-hour guided tour, featuring fast-track entry. Avoid long lines and discover the…',
@@ -697,7 +697,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-fc-barcelona-museum-and-quot-bar-a-immersive-tour-',
     title: 'Barcelona: FC Barcelona Museum &quot;Barça Immersive Tour&quot; Ticket',
-    shortTitle: 'Barcelona',
+    shortTitle: 'FC Barcelona Museum &quot;Barça Immersive',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: FC Barcelona Museum &quot;Barça Immersive Tour&quot; Ticket in Barcelona. Instant confirmation, free cancellation on most options. Rated…',
     description: 'Travel through the past, present, and future of Barça with this entry ticket to the Barça Immersive Exhibition. Enjoy a completely interactive experience…',
@@ -730,7 +730,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-park-g-ell-and-gaud-house-museum-entry-ticket',
     title: 'Barcelona: Park Güell and Gaudí House Museum Entry Ticket',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Park Güell and Gaudí House Museum Entry Ticket',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Park Güell and Gaudí House Museum Entry Ticket in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.5★ by 8,343…',
     description: 'Get entry tickets to explore the whimsical Park Güell and visit the Gaudí House Museum. Discover Antoni Gaudí\'s unique architectural style and enjoy…',
@@ -829,7 +829,7 @@ export const tours: Tour[] = [
   {
     slug: 'barcelona-daytime-or-sunset-catamaran-cruise-with-music',
     title: 'Barcelona: Daytime or Sunset Catamaran Cruise with Music',
-    shortTitle: 'Barcelona',
+    shortTitle: 'Daytime or Sunset Catamaran Cruise with Music',
     metaTitle: 'Barcelona Tickets 2026',
     metaDescription: 'Book Barcelona: Daytime or Sunset Catamaran Cruise with Music in Barcelona. Instant confirmation, free cancellation on most options. Rated 4.3★ by 6,492…',
     description: 'Enjoy a journey on this comfort catamaran for daily or sunset departures and stunning views of the city\'s skyline, with drinks available for purchase…',
