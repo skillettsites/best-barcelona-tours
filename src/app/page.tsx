@@ -16,10 +16,23 @@ import CategoryPill from '@/components/ds/CategoryPill';
 import PartnerBadge from '@/components/ds/PartnerBadge';
 import AffiliateDisclosure from '@/components/ui/AffiliateDisclosure';
 import SisterSites from '@/components/SisterSites';
+import { getBlogPostBySlug } from '@/data/blog-posts';
 
 const byReviews = [...tours].sort((a, b) => b.rating - a.rating || b.reviewCount - a.reviewCount);
 const mostBookedTours = byReviews.slice(0, 6);
 const featuredTours = byReviews.slice(6, 12);
+
+const decisionGuideSlugs = [
+  'is-sagrada-familia-worth-it',
+  'sagrada-familia-vs-park-guell-which-to-visit-first',
+  'best-way-to-skip-the-line-in-barcelona',
+  'is-a-montserrat-day-trip-from-barcelona-worth-it',
+  'best-of-barcelona-priority-access-tour-worth-it',
+  'park-guell-guided-tour-vs-entry-ticket',
+];
+const decisionGuides = decisionGuideSlugs
+  .map((slug) => getBlogPostBySlug(slug))
+  .filter((p): p is NonNullable<typeof p> => p !== undefined);
 
 const testimonials = [
   { quote: `Booking ahead through the site was effortless. We skipped the long queue and walked straight in. Easily the highlight of our trip to ${SITE_CITY}.`, author: 'Sarah M.', location: 'United States', rating: 5 },
@@ -100,6 +113,37 @@ export default function HomePage() {
                 </RevealOnScroll>
               ))}
             </div>
+          </div>
+        </section>
+      )}
+
+      {/* Decision guides */}
+      {decisionGuides.length > 0 && (
+        <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+          <SectionHeader
+            eyebrow="Plan your trip"
+            title="Is it worth it? Barcelona trip-planning guides"
+            subtitle="Honest verdicts on the tickets and day trips travellers ask about most, so you book the right one."
+            action={{ label: 'All guides', href: '/blog' }}
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+            {decisionGuides.map((post, i) => (
+              <RevealOnScroll key={post.slug} delay={(i % 3) * 0.08}>
+                <Link
+                  href={`/blog/${post.slug}`}
+                  className="group flex h-full flex-col rounded-card-lg border border-border bg-surface p-6 transition-all hover:border-primary hover:shadow-card"
+                >
+                  <h3 className="font-display text-lg text-on-surface leading-snug group-hover:text-primary transition-colors">
+                    {post.title}
+                  </h3>
+                  <p className="mt-2 text-sm text-on-surface-2 leading-relaxed">{post.excerpt}</p>
+                  <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
+                    Read the verdict
+                    <svg className="h-4 w-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+                  </span>
+                </Link>
+              </RevealOnScroll>
+            ))}
           </div>
         </section>
       )}

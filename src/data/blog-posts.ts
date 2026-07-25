@@ -15,7 +15,7 @@ export const blogPosts: BlogPost[] = [
       'Is the Sagrada Familia worth visiting and worth the ticket price? An honest verdict on Gaudi\'s basilica, current prices, whether to add a guide, and how to skip the lines.',
     excerpt:
       'Barcelona\'s most-visited landmark divides opinion on cost and crowds. Here is a straight answer on whether the Sagrada Familia earns its place on your itinerary.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/62bacf6a87bba.jpeg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/62bacf6a87bba.jpeg/99.jpg',
     heroImageAlt: 'Interior columns and stained glass of the Sagrada Familia, Barcelona',
     content: `<p>The Sagrada Familia is the one Barcelona attraction almost every visitor asks about, and the one that generates the most doubt. Tickets are no longer cheap, the queues are famous, and photos of the exterior are everywhere before you even land. So the fair question is not "is it famous", it is "is it worth your money and a chunk of your day". Having sent thousands of readers through the doors, here is the honest answer.</p>
 
@@ -87,7 +87,7 @@ export const blogPosts: BlogPost[] = [
       'Sagrada Familia or Park Guell first? A clear comparison of Barcelona\'s two Gaudi headliners on cost, crowds, timing and views, plus how to do both in one day.',
     excerpt:
       'Two Gaudi masterpieces, one short trip. Here is how to decide which comes first, and whether you can sensibly pair them on the same day.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/93473fd2896a1e0e.jpeg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/93473fd2896a1e0e.jpeg/99.jpg',
     heroImageAlt: 'Mosaic terrace and city view at Park Guell, Barcelona',
     content: `<p>If you have limited time in Barcelona, the Sagrada Familia and Park Guell are the two Gaudi sites you cannot skip. They are very different experiences, they sit on opposite sides of the city, and the order you do them in genuinely affects how your day feels. Here is how to choose.</p>
 
@@ -159,7 +159,7 @@ export const blogPosts: BlogPost[] = [
       'How to skip the lines in Barcelona at the Sagrada Familia, Park Guell and Casa Batllo. Which skip-the-line tickets actually save time, what they cost, and the mistakes to avoid.',
     excerpt:
       'Barcelona\'s big attractions all sell timed entry, but not every ticket labelled skip-the-line does the same job. Here is what actually saves you an hour.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/448290a706817776.jpeg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/448290a706817776.jpeg/99.jpg',
     heroImageAlt: 'Visitors entering the Sagrada Familia past the ticket line, Barcelona',
     content: `<p>In peak season, standby queues at Barcelona\'s headline sights can swallow one to two hours per attraction. Over a three-day trip that is a wasted half-day standing in the sun. The good news: skip-the-line access is cheap relative to the time it buys back. The catch: the phrase gets used loosely, so it helps to know what each ticket type really gives you.</p>
 
@@ -229,7 +229,7 @@ export const blogPosts: BlogPost[] = [
       'Should you book a Park Guell guided tour or just the entry ticket? A clear comparison on price, what you learn, crowds and views, so you pick the right Park Guell ticket.',
     excerpt:
       'A plain entry ticket gets you into Park Guell for less, but a guided tour costs only a little more. Here is which one is right for you.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/ce92bfd0b52bdc20679ddecfb9d8a1172b8f6887152ca3ecc858e004d5fad601.png/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/ce92bfd0b52bdc20679ddecfb9d8a1172b8f6887152ca3ecc858e004d5fad601.png/99.jpg',
     heroImageAlt: 'Colourful mosaic salamander and stairway at Park Guell, Barcelona',
     content: `<p>Park Guell has two obvious ways in: buy the plain admission ticket to the Monumental Zone and wander on your own, or pay a little more for a guided tour with skip-the-line entry. The price gap is small, so the real question is what you want from the visit. Here is the honest comparison.</p>
 
@@ -299,7 +299,7 @@ export const blogPosts: BlogPost[] = [
       'Is the Montserrat day trip from Barcelona worth it? An honest verdict on the monastery, the cog-wheel train, the Black Madonna, cost and how long it takes.',
     excerpt:
       'The jagged mountain monastery is the most popular day trip from Barcelona. Here is whether it earns a full day away from the city.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/63580375c2779b096cbc8dbdfb82c3e16efd2021569cccea569462ef6f554aee.jpg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/63580375c2779b096cbc8dbdfb82c3e16efd2021569cccea569462ef6f554aee.jpg/99.jpg',
     heroImageAlt: 'Montserrat monastery below the jagged mountain peaks near Barcelona',
     content: `<p>Montserrat is the day trip everyone in Barcelona seems to recommend: a Benedictine monastery wedged into a mountain of strange rounded pinnacles, about an hour outside the city. But a half or full day out of a short city break is a real cost. Is it worth it? Here is the straight answer.</p>
 
@@ -370,7 +370,7 @@ export const blogPosts: BlogPost[] = [
       'Casa Batllo or La Pedrera? A clear comparison of Barcelona\'s two Gaudi houses on Passeig de Gracia, covering what to see, cost and which one to book if you only pick one.',
     excerpt:
       'Two Gaudi houses sit a five-minute walk apart on the same avenue. Here is how they differ and which one to choose if you only have time for one.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/aa3ab6c4aaa9cc0c.jpeg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/aa3ab6c4aaa9cc0c.jpeg/99.jpg',
     heroImageAlt: 'The curved facade and balconies of Casa Batllo, Barcelona',
     content: `<p>Walk up Passeig de Gracia and you pass two of Gaudi\'s most famous buildings within a few hundred metres of each other: Casa Batllo and Casa Mila, better known as La Pedrera. Both are UNESCO World Heritage sites, both charge similar admission, and most visitors with limited time pick just one. Here is how to decide.</p>
 
@@ -441,7 +441,7 @@ export const blogPosts: BlogPost[] = [
       'Is Sagrada Familia tower access worth the extra cost? An honest look at the views, the lift and stairs, which tower to choose and whether to skip it on a first visit.',
     excerpt:
       'The towers are the priciest Sagrada Familia add-on. Here is whether the climb and the view justify the upgrade, or whether the interior is enough.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/41d2820d036a5370c6ffa4849fbf9e784ba957e6f39eb9c94c294917f88c85fc.jpg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/41d2820d036a5370c6ffa4849fbf9e784ba957e6f39eb9c94c294917f88c85fc.jpg/99.jpg',
     heroImageAlt: 'View from a Sagrada Familia tower over the spires and Barcelona rooftops',
     content: `<p>Once you have decided to visit the Sagrada Familia, the next question is whether to pay extra for tower access. It is the most expensive add-on the basilica sells, it involves booking a specific tower, and it is not included in standard entry. So is it worth it? Here is the honest take.</p>
 
@@ -516,7 +516,7 @@ export const blogPosts: BlogPost[] = [
       'Is a best of Barcelona priority access tour including the Sagrada Familia worth it? A verdict on combined Gaudi tours, what priority access saves you, and the best options.',
     excerpt:
       'Combined priority-access tours promise the Sagrada Familia and more Gaudi highlights in one booking. Here is whether bundling beats booking each ticket yourself.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/e411a73492224484490d9af4bb8f960af11912dabea80ffb65b0b61e4ee4f15e.jpg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/e411a73492224484490d9af4bb8f960af11912dabea80ffb65b0b61e4ee4f15e.jpg/99.jpg',
     heroImageAlt: 'Guide leading a small group with priority access at the Sagrada Familia, Barcelona',
     content: `<p>Search for things to do in Barcelona and you quickly meet the "best of Barcelona priority access" tours: single bookings that promise the Sagrada Familia plus one or more other Gaudi highlights, with skip-the-line entry and a guide throughout. They cost more than a single ticket. Are they worth it? Here is the honest breakdown.</p>
 

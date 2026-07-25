@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { tours, getTourBySlug, getRelatedTours } from '@/data/tours';
 import { categories } from '@/data/categories';
 import { guides } from '@/data/guides';
+import { blogPosts, getBlogPostBySlug } from '@/data/blog-posts';
 import { tourSchema, touristTripSchema, breadcrumbSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/constants';
 import { TOP_CONVERTER_BY_DESTINATION } from '@/lib/trust';
@@ -323,6 +324,46 @@ export default async function TourPage({ params }: { params: Params }) {
                     <Link href={`/guides/${guide.slug}`} className="block group">
                       <span className="text-primary font-medium group-hover:underline">{guide.title}</span>
                       <p className="text-sm text-on-surface-2 mt-0.5">{guide.excerpt}</p>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          );
+        })()}
+
+        {/* Related decision guides */}
+        {(() => {
+          const defaults = [
+            'best-way-to-skip-the-line-in-barcelona',
+            'is-sagrada-familia-worth-it',
+            'sagrada-familia-vs-park-guell-which-to-visit-first',
+          ];
+          const keywordMap: { match: string; slugs: string[] }[] = [
+            { match: 'sagrada', slugs: ['is-sagrada-familia-worth-it', 'sagrada-familia-tower-access-worth-it', 'best-of-barcelona-priority-access-tour-worth-it'] },
+            { match: 'g-ell', slugs: ['park-guell-guided-tour-vs-entry-ticket', 'sagrada-familia-vs-park-guell-which-to-visit-first', 'best-way-to-skip-the-line-in-barcelona'] },
+            { match: 'guell', slugs: ['park-guell-guided-tour-vs-entry-ticket', 'sagrada-familia-vs-park-guell-which-to-visit-first', 'best-way-to-skip-the-line-in-barcelona'] },
+            { match: 'montserrat', slugs: ['is-a-montserrat-day-trip-from-barcelona-worth-it', 'is-sagrada-familia-worth-it', 'best-way-to-skip-the-line-in-barcelona'] },
+            { match: 'batll', slugs: ['casa-batllo-vs-la-pedrera-which-gaudi-house', 'best-way-to-skip-the-line-in-barcelona', 'is-sagrada-familia-worth-it'] },
+            { match: 'pedrera', slugs: ['casa-batllo-vs-la-pedrera-which-gaudi-house', 'best-way-to-skip-the-line-in-barcelona', 'is-sagrada-familia-worth-it'] },
+          ];
+          const matched = keywordMap.find((k) => tour.slug.includes(k.match));
+          const wanted = matched ? matched.slugs : defaults;
+          const relevantPosts = wanted
+            .map((s) => getBlogPostBySlug(s))
+            .filter((p): p is NonNullable<typeof p> => p !== undefined)
+            .slice(0, 3);
+          if (relevantPosts.length === 0 || blogPosts.length === 0) return null;
+
+          return (
+            <section className="mt-16 rounded-card-lg bg-surface-muted p-6 sm:p-8">
+              <h2 className="text-xl font-semibold text-on-surface mb-4">Related guides: is it worth it?</h2>
+              <ul className="space-y-3">
+                {relevantPosts.map((post) => (
+                  <li key={post.slug}>
+                    <Link href={`/blog/${post.slug}`} className="block group">
+                      <span className="text-primary font-medium group-hover:underline">{post.title}</span>
+                      <p className="text-sm text-on-surface-2 mt-0.5">{post.excerpt}</p>
                     </Link>
                   </li>
                 ))}
