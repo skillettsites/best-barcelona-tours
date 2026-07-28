@@ -17,6 +17,12 @@ export interface Tour {
   highlights: string[];
   includes: string[];
   bestFor: string[];
+  /**
+   * False when GetYourGuide lists the activity as non-refundable. Omitted means
+   * the listing offers free cancellation. Never show a free-cancellation promise
+   * on a tour where this is false.
+   */
+  freeCancellation?: boolean;
   gygTourId: string;
   affiliateUrl: string;
   faqs: FAQ[];

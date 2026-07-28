@@ -92,6 +92,13 @@ const nextConfig: NextConfig = {
         destination: '/guides/best-walking-tours-london-2026',
         permanent: true,
       },
+      {
+        // GetYourGuide t913286 is a category listing, not a bookable activity,
+        // so the page was removed. Send its traffic to the guided tours category.
+        source: '/tours/the-best-barcelona-audio-guides-2026-free-cancellation',
+        destination: '/category/guided-tours',
+        permanent: true,
+      },
     ];
   },
 };

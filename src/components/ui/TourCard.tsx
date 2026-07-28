@@ -51,15 +51,17 @@ export default function TourCard({ tour }: { tour: Tour }) {
             </div>
           )}
 
-          {/* Free cancellation badge */}
-          <div className="absolute top-3 right-3 z-10">
-            <span className="inline-flex items-center gap-1 rounded-full bg-green-600 px-2.5 py-1 text-xs font-semibold text-white shadow-lg">
-              <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              Free cancellation
-            </span>
-          </div>
+          {/* Cancellation badge, only where GetYourGuide actually offers free cancellation */}
+          {tour.freeCancellation !== false && (
+            <div className="absolute top-3 right-3 z-10">
+              <span className="inline-flex items-center gap-1 rounded-full bg-green-600 px-2.5 py-1 text-xs font-semibold text-white shadow-lg">
+                <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                Free cancellation
+              </span>
+            </div>
+          )}
 
           {/* Duration overlay */}
           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">

@@ -1,3 +1,5 @@
+import { trustStats } from '@/lib/trust';
+
 interface PartnerBadgeProps {
   variant?: 'strip' | 'inline';
   className?: string;
@@ -26,7 +28,7 @@ export default function PartnerBadge({ variant = 'strip', className = '' }: Part
         <span className="hidden sm:inline text-border">|</span>
         <span>Secure checkout</span>
         <span className="hidden sm:inline text-border">|</span>
-        <span>Free cancellation on 95% of tours</span>
+        <span>Free cancellation on {trustStats.freeCancellationPct}% of tours</span>
         <span className="hidden sm:inline text-border">|</span>
         <span>24/7 customer support</span>
       </div>

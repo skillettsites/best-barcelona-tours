@@ -41,7 +41,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>If this is a bucket-list moment and you want the symbolism properly unpacked, a skip-the-line entry ticket with a live guide from <strong>£54</strong> is the upgrade worth paying for. A good guide turns a beautiful room into a readable story of the Nativity and Passion facades, and it is consistently our highest-rated Sagrada option. <a href="https://www.getyourguide.com/activity/-t288805?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_barcelona_tours" target="_blank" rel="noopener noreferrer sponsored" class="${LINK}">Book the skip-the-line entry ticket and tour &rarr;</a></p>
 
-<p>Travellers who want the most polished small-group experience, with priority access straight past the ticket hall, tend to prefer the priority access guided tour from <strong>£66</strong>. <a href="https://www.getyourguide.com/activity/-t668448?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_barcelona_tours" target="_blank" rel="noopener noreferrer sponsored" class="${LINK}">Book the priority access guided tour &rarr;</a></p>
+<p>Travellers who want the most polished small-group experience, with priority access straight past the ticket hall, tend to prefer the priority access guided tour from <strong>£68</strong>. <a href="https://www.getyourguide.com/activity/-t668448?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_barcelona_tours" target="_blank" rel="noopener noreferrer sponsored" class="${LINK}">Book the priority access guided tour &rarr;</a></p>
 
 <h2>Who should skip it</h2>
 
@@ -60,7 +60,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: 'How much is a Sagrada Familia ticket in 2026?',
         answer:
-          'Entry tickets with an audio guide start from around £29. A skip-the-line ticket with a live guide starts from about £54, and a small-group priority access guided tour from around £66. Tower access is a separate add-on.',
+          'Entry tickets with an audio guide start from around £29. A skip-the-line ticket with a live guide starts from about £54, and a small-group priority access guided tour from around £68. Tower access is a separate add-on.',
       },
       {
         question: 'How long should I spend inside the Sagrada Familia?',
@@ -111,7 +111,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Yes, comfortably, and it is one of the most efficient days in Barcelona. They are about 20 to 30 minutes apart by taxi or metro-plus-walk. The classic plan: Sagrada Familia for a 9am or 9:30am slot, a mid-morning coffee, then a Park Guell entry around midday or early afternoon. Book timed slots for both so you are never gambling on availability.</p>
 
-<p>If you would rather not juggle two separate tickets and two separate queues, a combined Park Guell and Sagrada Familia ticket with tour from <strong>£93</strong> bundles both headliners with priority access, which removes all the logistics from your day. <a href="https://www.getyourguide.com/activity/-t87947?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_barcelona_tours" target="_blank" rel="noopener noreferrer sponsored" class="${LINK}">Book the combined Park Guell and Sagrada Familia tour &rarr;</a></p>
+<p>If you would rather not juggle two separate tickets and two separate queues, a combined Park Guell and Sagrada Familia ticket with tour from <strong>£65</strong> bundles both headliners with priority access, which removes all the logistics from your day. <a href="https://www.getyourguide.com/activity/-t87947?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_barcelona_tours" target="_blank" rel="noopener noreferrer sponsored" class="${LINK}">Book the combined Park Guell and Sagrada Familia tour &rarr;</a></p>
 
 <h2>If you can only do one</h2>
 
@@ -545,14 +545,14 @@ export const blogPosts: BlogPost[] = [
 <h2>The strongest options</h2>
 
 <h3>Sagrada Familia priority access, done properly</h3>
-<p>If your priority is the basilica itself with the smoothest possible entry, a Sagrada Familia priority access guided tour from <strong>£66</strong> is the premium single-site choice, with a small group and a guide who unpacks the whole interior. <a href="https://www.getyourguide.com/activity/-t668448?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_barcelona_tours" target="_blank" rel="noopener noreferrer sponsored" class="${LINK}">Book the Sagrada Familia priority access guided tour &rarr;</a></p>
-<p>For a leaner, semi-private priority option at a lower price, an expert-guided priority entry tour from <strong>£38</strong> is strong value. <a href="https://www.getyourguide.com/activity/-t1021500?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_barcelona_tours" target="_blank" rel="noopener noreferrer sponsored" class="${LINK}">Book the priority entry and expert guided tour &rarr;</a></p>
+<p>If your priority is the basilica itself with the smoothest possible entry, a Sagrada Familia priority access guided tour from <strong>£68</strong> is the premium single-site choice, with a small group and a guide who unpacks the whole interior. <a href="https://www.getyourguide.com/activity/-t668448?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_barcelona_tours" target="_blank" rel="noopener noreferrer sponsored" class="${LINK}">Book the Sagrada Familia priority access guided tour &rarr;</a></p>
+<p>For a leaner, semi-private priority option at a lower price, an expert-guided priority entry tour from <strong>£39</strong> is strong value. <a href="https://www.getyourguide.com/activity/-t1021500?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_barcelona_tours" target="_blank" rel="noopener noreferrer sponsored" class="${LINK}">Book the priority entry and expert guided tour &rarr;</a></p>
 
 <h3>Two Gaudi icons in one booking</h3>
-<p>The classic best-of combination pairs the Sagrada Familia with Park Guell. A combined ticket and tour from <strong>£93</strong> covers both with priority access, so you knock out the two headliners without touching a second booking. <a href="https://www.getyourguide.com/activity/-t87947?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_barcelona_tours" target="_blank" rel="noopener noreferrer sponsored" class="${LINK}">Book the Park Guell and Sagrada Familia tour &rarr;</a></p>
+<p>The classic best-of combination pairs the Sagrada Familia with Park Guell. A combined ticket and tour from <strong>£65</strong> covers both with priority access, so you knock out the two headliners without touching a second booking. <a href="https://www.getyourguide.com/activity/-t87947?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_barcelona_tours" target="_blank" rel="noopener noreferrer sponsored" class="${LINK}">Book the Park Guell and Sagrada Familia tour &rarr;</a></p>
 
 <h3>A fuller day across the city</h3>
-<p>Want the widest sweep in one guided outing? A Sagrada Familia, Park Guell and Gothic Quarter tour from <strong>£83</strong> adds the medieval old town to the two Gaudi giants, panoramic viewpoints included. It is the most complete best-of day we offer. <a href="https://www.getyourguide.com/activity/-t412239?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_barcelona_tours" target="_blank" rel="noopener noreferrer sponsored" class="${LINK}">Book the Sagrada Familia, Park Guell and Gothic Quarter tour &rarr;</a></p>
+<p>Want the widest sweep in one guided outing? A Sagrada Familia, Park Guell and Gothic Quarter tour from <strong>£65</strong> adds the medieval old town to the two Gaudi giants, panoramic viewpoints included. It is the most complete best-of day we offer. <a href="https://www.getyourguide.com/activity/-t412239?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_barcelona_tours" target="_blank" rel="noopener noreferrer sponsored" class="${LINK}">Book the Sagrada Familia, Park Guell and Gothic Quarter tour &rarr;</a></p>
 
 <h2>The trade-offs to weigh</h2>
 
@@ -590,7 +590,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: 'Which best of Barcelona tour covers the most?',
         answer:
-          'A Sagrada Familia, Park Guell and Gothic Quarter tour from around £83 is the most complete option, combining the two Gaudi giants with the medieval old town and panoramic viewpoints in one guided day.',
+          'A Sagrada Familia, Park Guell and Gothic Quarter tour from around £65 is the most complete option, combining the two Gaudi giants with the medieval old town and panoramic viewpoints in one guided day.',
       },
     ],
     publishedDate: '2026-07-25',

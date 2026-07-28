@@ -11,6 +11,7 @@ interface ComparisonTour {
   bestFor: string[];
   affiliateUrl: string;
   destination?: string;
+  freeCancellation?: boolean;
 }
 
 type Row = 'price' | 'duration' | 'rating' | 'reviews' | 'cancellation' | 'bestFor';
@@ -68,11 +69,14 @@ export default function ComparisonTable({
                     </span>
                   )}
                   {row === 'reviews' && tour.reviewCount.toLocaleString()}
-                  {row === 'cancellation' && (
-                    <svg className="h-4 w-4 text-success mx-auto" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                  )}
+                  {row === 'cancellation' &&
+                    (tour.freeCancellation === false ? (
+                      <span className="text-on-surface-2 text-[13px]">Non-refundable</span>
+                    ) : (
+                      <svg className="h-4 w-4 text-success mx-auto" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                      </svg>
+                    ))}
                   {row === 'bestFor' && (
                     <span className="text-on-surface-2 text-[13px]">{tour.bestFor.slice(0, 2).join(', ')}</span>
                   )}

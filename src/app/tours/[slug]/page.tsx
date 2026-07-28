@@ -90,7 +90,7 @@ export default async function TourPage({ params }: { params: Params }) {
 
       <StickyBookingBar
         label={tour.shortTitle}
-        sublabel={`From £${tour.price} · Free cancellation`}
+        sublabel={`From £${tour.price} · ${tour.freeCancellation === false ? 'Non-refundable' : 'Free cancellation'}`}
         href={tour.affiliateUrl}
         price={`£${tour.price}`}
         ctaLabel="Book Now"
@@ -275,9 +275,20 @@ export default async function TourPage({ params }: { params: Params }) {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                   </svg>
                 </TrackedGYGLink>
-                <p className="mt-2 text-center text-xs font-medium text-success">Free cancellation on most dates</p>
+                {tour.freeCancellation === false ? (
+                  <p className="mt-2 text-center text-xs font-medium text-on-surface-2">Non-refundable: this ticket cannot be cancelled</p>
+                ) : (
+                  <p className="mt-2 text-center text-xs font-medium text-success">Free cancellation on most dates</p>
+                )}
                 <ul className="mt-5 space-y-2 text-sm text-on-surface-2">
-                  {['Instant confirmation', 'Free cancellation', 'Mobile ticket', 'Best price guarantee'].map((item) => (
+                  {[
+                    tour.includes.includes('Ticket confirmation within 48 hours')
+                      ? 'Ticket confirmed within 48 hours'
+                      : 'Instant confirmation',
+                    ...(tour.freeCancellation === false ? [] : ['Free cancellation']),
+                    'Mobile ticket',
+                    'Best price guarantee',
+                  ].map((item) => (
                     <li key={item} className="flex items-center gap-2">
                       <svg className="h-4 w-4 text-success shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
