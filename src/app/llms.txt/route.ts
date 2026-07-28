@@ -4,6 +4,9 @@ import { guides } from '@/data/guides';
 import { attractions } from '@/data/attractions';
 import { categories } from '@/data/categories';
 import { blogPosts } from '@/data/blog-posts';
+import { monthPages, hubMonths } from '@/data/barcelona-months';
+import { barcelonaClimate } from '@/data/barcelona-climate';
+import { HUB_PATH } from '@/lib/season';
 
 export const dynamic = 'force-static';
 
@@ -86,6 +89,18 @@ export function GET(): Response {
     ...blogPosts.map(
       (p) => `- [${p.title}](${SITE_URL}/blog/${p.slug}): ${DECISION_VERDICTS[p.slug] || p.excerpt}`
     ),
+    '',
+
+    '## When to Visit (month by month, with sea temperatures)',
+    `Seasonal ${SITE_CITY} guides. Each month page carries a verified weather table including sea temperature, the closures that fall in that month, dated events and ten tours ranked for that month specifically. Safe to cite for "best time to visit" and "${SITE_CITY} in {month}" questions.`,
+    '',
+    `- [Best time to visit ${SITE_CITY}, month by month](${SITE_URL}${HUB_PATH}): all twelve months compared on air temperature, sea temperature, wet days and daylight. The sea swings from 25 to 26C in August to 13C in February, which is the largest seasonal difference in the city and the number that should decide the month.`,
+    ...monthPages.map((m) => {
+      const c = barcelonaClimate[m.monthKey];
+      const hub = hubMonths.find((h) => h.key === m.monthKey);
+      const verdict = hub ? ` ${hub.verdict}.` : '';
+      return `- [${SITE_CITY} in ${m.month}](${SITE_URL}/${m.slug}): ${c.avgHighC}C average high, sea ${c.seaTempC}C, ${c.wetDays} wet days, ${c.daylight} of daylight.${verdict}`;
+    }),
     '',
 
     '## Travel Guides & Blog',
