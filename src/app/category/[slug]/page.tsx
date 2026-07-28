@@ -10,7 +10,45 @@ import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import AffiliateDisclosure from '@/components/ui/AffiliateDisclosure';
 import FAQ from '@/components/ui/FAQ';
 
-const categorySeoContent: Record<string, { paragraphs: string[]; relatedGuides: { slug: string; title: string }[] }> = {};
+type CategorySeo = {
+  capsule?: { heading: string; paragraphs: string[]; link: { href: string; label: string } };
+  paragraphs: string[];
+  relatedLinks: { href: string; title: string; description: string }[];
+};
+
+const categorySeoContent: Record<string, CategorySeo> = {
+  'skip-the-line': {
+    capsule: {
+      heading: 'The best skip-the-line tours and tickets in Barcelona',
+      paragraphs: [
+        'Every ticket on this page comes with skip-the-line or priority access at a Barcelona attraction, booked through GetYourGuide on a reserved time slot. Park Guell admission starts from £18, Casa Batllo entry with the audio guide from £25, Barcelona Aquarium entry from £26 and the Sagrada Familia with an audio guide from £29. The Sagrada Familia is where a skip-the-line ticket buys back the most time, because its standby queue is the longest in the city.',
+        'Want the how-to rather than the tickets? Our step-by-step guide explains how timed entry works in Barcelona, which slots are quietest and the mistakes that cost people an hour in the sun.',
+      ],
+      link: { href: '/guides/skip-the-line-barcelona', label: 'Read the full guide to skipping the line in Barcelona' },
+    },
+    paragraphs: [
+      'Skip-the-line in Barcelona does not mean walking straight in. Every major sight runs on timed entry, so what you are buying is a reserved slot plus a short priority lane instead of the long general-admission queue. Book a specific time, turn up five to ten minutes before it, and you bypass the crowd that arrived hoping to buy on the day.',
+      'Guided tours go one step further: the guide handles entry for the whole group, so you skip both the ticket line and the security shuffle, and you get the context as well. Tickets are delivered to your phone with instant confirmation, and most options can be cancelled free up to 24 hours before.',
+    ],
+    relatedLinks: [
+      {
+        href: '/guides/skip-the-line-barcelona',
+        title: 'How to skip the line in Barcelona: tickets and tips',
+        description: 'The step-by-step guide to timed entry, priority lanes and the quietest slots.',
+      },
+      {
+        href: '/blog/best-way-to-skip-the-line-in-barcelona',
+        title: 'The best way to skip the lines in Barcelona',
+        description: 'Which skip-the-line tickets actually save an hour, what they cost, and the mistakes to avoid.',
+      },
+      {
+        href: '/attractions',
+        title: 'Barcelona attraction tickets at a glance',
+        description: 'From-prices and skip-the-line availability for every top Barcelona attraction.',
+      },
+    ],
+  },
+};
 
 export function generateStaticParams() {
   return categories.map((cat) => ({ slug: cat.slug }));
@@ -75,6 +113,22 @@ export default async function CategoryPage({ params }: { params: Params }) {
           <p className="mt-3 text-lg text-gray-600 max-w-3xl">{category.description}</p>
         </div>
 
+        {categorySeoContent[category.slug]?.capsule && (
+          <section className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-6 max-w-3xl">
+            <h2 className="text-xl font-bold text-gray-900 mb-3">{categorySeoContent[category.slug].capsule!.heading}</h2>
+            <div className="space-y-3 text-gray-700">
+              {categorySeoContent[category.slug].capsule!.paragraphs.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
+            </div>
+            <p className="mt-4 text-sm">
+              <Link href={categorySeoContent[category.slug].capsule!.link.href} className="text-green-700 font-semibold hover:underline">
+                {categorySeoContent[category.slug].capsule!.link.label}
+              </Link>
+            </p>
+          </section>
+        )}
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {categoryTours.map((tour) => (
             <TourCard key={tour.slug} tour={tour} />
@@ -115,15 +169,16 @@ export default async function CategoryPage({ params }: { params: Params }) {
               ))}
             </div>
 
-            {categorySeoContent[category.slug].relatedGuides.length > 0 && (
+            {categorySeoContent[category.slug].relatedLinks.length > 0 && (
               <div className="mt-8">
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Guides</h3>
-                <ul className="space-y-2">
-                  {categorySeoContent[category.slug].relatedGuides.map((guide) => (
-                    <li key={guide.slug}>
-                      <Link href={`/guides/${guide.slug}`} className="text-blue-900 hover:underline">
-                        {guide.title}
+                <ul className="space-y-3">
+                  {categorySeoContent[category.slug].relatedLinks.map((link) => (
+                    <li key={link.href}>
+                      <Link href={link.href} className="text-green-700 font-medium hover:underline">
+                        {link.title}
                       </Link>
+                      <p className="text-sm text-gray-500 mt-0.5">{link.description}</p>
                     </li>
                   ))}
                 </ul>

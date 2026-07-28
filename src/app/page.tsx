@@ -29,6 +29,8 @@ const decisionGuideSlugs = [
   'is-a-montserrat-day-trip-from-barcelona-worth-it',
   'best-of-barcelona-priority-access-tour-worth-it',
   'park-guell-guided-tour-vs-entry-ticket',
+  'casa-batllo-vs-la-pedrera-which-gaudi-house',
+  'sagrada-familia-tower-access-worth-it',
 ];
 const decisionGuides = decisionGuideSlugs
   .map((slug) => getBlogPostBySlug(slug))

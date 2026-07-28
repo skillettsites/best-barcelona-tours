@@ -47,6 +47,8 @@ export const blogPosts: BlogPost[] = [
 
 <p>Almost nobody. The only travellers who reliably regret it are those who booked the cheapest exterior-only or bare-entry option, arrived at peak midday, and gave it twenty rushed minutes. Give it 90 minutes, book a slot with daylight for the windows, and it will be the highlight of the trip.</p>
 
+<p>Weighing it against the rest of the city first? Our <a href="/attractions" class="${LINK}">Barcelona attraction tickets at a glance</a> table lists the from-price for every major sight, and the <a href="/attractions/sagrada-familia" class="${LINK}">Sagrada Familia tickets and tours</a> page ranks all ten basilica options in one place.</p>
+
 <p><strong>Bottom line:</strong> the Sagrada Familia is worth it. Buy a timed ticket in advance so you are never stuck in the standby line, and spend the extra on a guide if the meaning matters to you more than the budget.</p>`,
     relatedTourSlugs: [
       'barcelona-sagrada-familia-entry-ticket-with-audio-guide',
@@ -77,7 +79,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     publishedDate: '2026-07-25',
-    updatedDate: '2026-07-25',
+    updatedDate: '2026-07-28',
   },
   {
     slug: 'sagrada-familia-vs-park-guell-which-to-visit-first',
@@ -123,6 +125,8 @@ export const blogPosts: BlogPost[] = [
 <li>Both sell timed entry that regularly sells out days ahead in peak season. Book before you fly.</li>
 </ul>
 
+<p>To compare every option for each one before you commit, see <a href="/attractions/sagrada-familia" class="${LINK}">Sagrada Familia tickets and tours</a> and <a href="/attractions/park-guell" class="${LINK}">Park Guell tickets and tours</a>, or view all the headline sights together in <a href="/attractions" class="${LINK}">Barcelona attraction tickets at a glance</a>.</p>
+
 <p><strong>Bottom line:</strong> Sagrada Familia first thing, Park Guell after lunch, and book both in advance. If you value a stress-free day over saving a few pounds, the combined ticket is the easiest way to see both.</p>`,
     relatedTourSlugs: [
       'barcelona-sagrada-familia-entry-ticket-with-audio-guide',
@@ -149,7 +153,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     publishedDate: '2026-07-25',
-    updatedDate: '2026-07-25',
+    updatedDate: '2026-07-28',
   },
   {
     slug: 'best-way-to-skip-the-line-in-barcelona',
@@ -193,6 +197,8 @@ export const blogPosts: BlogPost[] = [
 
 <p>At the Sagrada Familia, unequivocally yes. At Park Guell and Casa Batllo it is still worth it in summer and on weekends, and less critical on a quiet winter weekday. Since the priced difference is usually only a few pounds over the base ticket, the time saved almost always wins.</p>
 
+<p>Ready to book? Every priority-access option we rate sits on the <a href="/category/skip-the-line" class="${LINK}">skip-the-line tickets in Barcelona</a> page, the mechanics of timed entry are covered step by step in our <a href="/guides/skip-the-line-barcelona" class="${LINK}">guide to skipping the line in Barcelona</a>, and <a href="/attractions" class="${LINK}">Barcelona attraction tickets at a glance</a> shows which sights offer it and from what price.</p>
+
 <p><strong>Bottom line:</strong> the best way to skip the lines in Barcelona is to pre-book a timed, skip-the-line ticket for each sight, take the first or last slot, and never ignore your entry time.</p>`,
     relatedTourSlugs: [
       'barcelona-sagrada-familia-skip-the-line-entry-ticket-and-tou',
@@ -219,7 +225,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     publishedDate: '2026-07-25',
-    updatedDate: '2026-07-25',
+    updatedDate: '2026-07-28',
   },
   {
     slug: 'park-guell-guided-tour-vs-entry-ticket',
@@ -263,6 +269,8 @@ export const blogPosts: BlogPost[] = [
 
 <p>For a first-time visitor who wants to understand what makes Park Guell special, the guided tour wins on value because the uplift over the plain ticket is so small. For anyone who has seen it before, is on a tight schedule, or simply wants the photos and the panorama, the entry ticket does the job for less. Either way, book the slot in advance; on-the-day availability in summer is unreliable.</p>
 
+<p>All six options, including the combined tickets, are ranked on our <a href="/attractions/park-guell" class="${LINK}">Park Guell tickets and tours</a> page, and you can compare it against the rest of the city in <a href="/attractions" class="${LINK}">Barcelona attraction tickets at a glance</a>.</p>
+
 <p><strong>Bottom line:</strong> first visit and curious, take the guided tour from £22; been before or just here for the view, the £18 entry ticket is enough.</p>`,
     relatedTourSlugs: [
       'barcelona-park-g-ell-admission-ticket',
@@ -289,7 +297,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     publishedDate: '2026-07-25',
-    updatedDate: '2026-07-25',
+    updatedDate: '2026-07-28',
   },
   {
     slug: 'is-a-montserrat-day-trip-from-barcelona-worth-it',
@@ -335,6 +343,8 @@ export const blogPosts: BlogPost[] = [
 
 <p>Anyone with time to spare who wants mountains, monastery atmosphere and a break from the city buzz. Hikers, in particular, get the most out of it. First-time visitors on a 48-hour trip should save it for next time and spend their limited hours on Gaudi\'s Barcelona.</p>
 
+<p>See what the guided option covers on our <a href="/attractions/montserrat" class="${LINK}">Montserrat tickets and tours</a> page, and check it against the city sights in <a href="/attractions" class="${LINK}">Barcelona attraction tickets at a glance</a> before you give up a whole day.</p>
+
 <p><strong>Bottom line:</strong> Montserrat is worth it on a longer trip and on a clear day. Let a guided cog-wheel tour handle the logistics so the day feels like an escape, not an errand.</p>`,
     relatedTourSlugs: [
       'barcelona-montserrat-tour-with-cog-wheel-and-black-madonna',
@@ -360,7 +370,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     publishedDate: '2026-07-25',
-    updatedDate: '2026-07-25',
+    updatedDate: '2026-07-28',
   },
   {
     slug: 'casa-batllo-vs-la-pedrera-which-gaudi-house',
@@ -406,6 +416,8 @@ export const blogPosts: BlogPost[] = [
 
 <p>If you want one unforgettable Gaudi-house interior and value energy, colour and a clever guide, book Casa Batllo. If your taste runs to bold, stripped-back architecture and that famous rooftop, La Pedrera rewards you. For most first-timers, and for anyone who wants a standout evening, Casa Batllo is the safer pick.</p>
 
+<p>Both ways in are listed and ranked on our <a href="/attractions/casa-batllo" class="${LINK}">Casa Batllo tickets and tours</a> page, which also explains the tours versus entry tickets choice. For the wider picture, <a href="/attractions" class="${LINK}">Barcelona attraction tickets at a glance</a> puts every headline sight and from-price side by side.</p>
+
 <p><strong>Bottom line:</strong> Casa Batllo for the dazzle and the night concerts; La Pedrera for the sculpture and the rooftop. Both a five-minute stroll apart, so photograph the one you skip.</p>`,
     relatedTourSlugs: [
       'barcelona-casa-batll-entry-with-self-audioguide-tour',
@@ -431,7 +443,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     publishedDate: '2026-07-25',
-    updatedDate: '2026-07-25',
+    updatedDate: '2026-07-28',
   },
   {
     slug: 'sagrada-familia-tower-access-worth-it',
@@ -481,6 +493,8 @@ export const blogPosts: BlogPost[] = [
 
 <p>Return visitors who have already soaked up the interior, photographers chasing detail shots of the spires, and travellers who simply love getting high above a city. If that is you, and you have a head for stairs and heights, the tower climb is a genuine thrill. If not, you will not feel you missed the point of the Sagrada Familia by staying at ground level.</p>
 
+<p>Every basilica ticket, tower access included, is ranked on our <a href="/attractions/sagrada-familia" class="${LINK}">Sagrada Familia tickets and tours</a> page, and <a href="/attractions" class="${LINK}">Barcelona attraction tickets at a glance</a> shows how the cost compares with the rest of the city.</p>
+
 <p><strong>Bottom line:</strong> tower access is a worthwhile extra for enthusiasts and repeat visitors, but on a first trip the interior is where the value sits. Skip the towers if heights or tight stairs are not for you.</p>`,
     relatedTourSlugs: [
       'barcelona-sagrada-familia-guided-tour-with-tower-access',
@@ -506,7 +520,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     publishedDate: '2026-07-25',
-    updatedDate: '2026-07-25',
+    updatedDate: '2026-07-28',
   },
   {
     slug: 'best-of-barcelona-priority-access-tour-worth-it',
@@ -552,6 +566,8 @@ export const blogPosts: BlogPost[] = [
 
 <p>For a first-time visitor on a tight two or three-day trip who wants the headline sights handled expertly with no queuing and no planning, a best of Barcelona priority access tour is well worth it. For independent travellers who enjoy setting their own rhythm, booking individual skip-the-line tickets gets you the same access for less, at the cost of doing the logistics yourself.</p>
 
+<p>Full details of the single-site option are on the <a href="/tours/barcelona-sagrada-familia-priority-access-guided-tour" class="${LINK}">Sagrada Familia priority access guided tour</a> page, with the cheaper semi-private alternative on the <a href="/tours/sagrada-familia-priority-entry-and-expert-guided-tour" class="${LINK}">priority entry and expert guided tour</a> page. To compare from-prices across every sight a best-of tour might cover, see <a href="/attractions" class="${LINK}">Barcelona attraction tickets at a glance</a>.</p>
+
 <p><strong>Bottom line:</strong> pay for a priority-access best-of tour when your time is scarce and you want it all sorted in one booking. Book separate tickets when you would rather control the pace and the budget.</p>`,
     relatedTourSlugs: [
       'barcelona-sagrada-familia-priority-access-guided-tour',
@@ -578,7 +594,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     publishedDate: '2026-07-25',
-    updatedDate: '2026-07-25',
+    updatedDate: '2026-07-28',
   },
 ];
 

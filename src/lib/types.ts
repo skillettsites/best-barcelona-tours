@@ -21,6 +21,10 @@ export interface Tour {
   affiliateUrl: string;
   faqs: FAQ[];
   relatedSlugs: string[];
+  /** Short answer capsule shown directly under the tour description. */
+  answerCapsule?: { heading: string; paragraphs: string[] };
+  /** Hand-picked internal links shown under the capsule. */
+  internalLinks?: { href: string; label: string; description: string }[];
 }
 
 export interface Category {

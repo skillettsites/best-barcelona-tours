@@ -22,15 +22,13 @@ import ViewerCounter from '@/components/ds/ViewerCounter';
 import RevealOnScroll from '@/components/ds/RevealOnScroll';
 import StickyBookingBar from '@/components/ds/StickyBookingBar';
 
+// Keys must match real category slugs in src/data/categories.ts and values real guide
+// slugs in src/data/guides.ts, or the related-guides block silently renders nothing.
 const categoryGuideMap: Record<string, string[]> = {
-  landmarks: ['first-time-visiting-barcelona', 'barcelona-3-day-itinerary', 'best-walking-tours-barcelona-2026'],
-  'river-cruises': ['bus-tour-vs-boat-tour-barcelona', 'barcelona-tours-for-couples', 'barcelona-3-day-itinerary'],
-  'day-trips': ['best-day-trips-from-barcelona', 'first-time-visiting-barcelona', 'barcelona-3-day-itinerary'],
-  'food-tours': ['barcelona-food-tours', 'free-things-to-do-in-barcelona-2026'],
-  'family-fun': ['best-barcelona-tours-for-kids', 'barcelona-rainy-day-activities', 'free-things-to-do-in-barcelona-2026'],
-  'walking-tours': ['best-walking-tours-barcelona-2026', 'first-time-visiting-barcelona', 'free-things-to-do-in-barcelona-2026'],
-  'museums-exhibitions': ['barcelona-rainy-day-activities', 'first-time-visiting-barcelona', 'best-barcelona-tours-for-kids'],
-  'evening-experiences': ['barcelona-tours-for-couples', 'best-walking-tours-barcelona-2026', 'best-evening-tours-barcelona-2026'],
+  'skip-the-line': ['skip-the-line-barcelona', 'first-time-in-barcelona', 'best-barcelona-tours-2026'],
+  'guided-tours': ['best-guided-tours-in-barcelona', 'best-walking-tours-barcelona-2026', 'best-hop-on-hop-off-barcelona'],
+  'food-drink': ['best-barcelona-tours-2026', 'barcelona-tours-on-a-budget', 'first-time-in-barcelona'],
+  'top-attractions': ['best-barcelona-tours-2026', 'skip-the-line-barcelona', 'first-time-in-barcelona'],
 };
 
 const REDIRECTED = new Set<string>([]);
@@ -144,6 +142,35 @@ export default async function TourPage({ params }: { params: Params }) {
             <section>
               <p className="text-[17px] text-on-surface leading-relaxed">{tour.description}</p>
             </section>
+
+            {/* Answer capsule */}
+            {tour.answerCapsule && (
+              <section className="rounded-card-lg border border-border bg-surface-muted p-6 sm:p-7">
+                <h2 className="text-2xl font-semibold text-on-surface mb-3">{tour.answerCapsule.heading}</h2>
+                <div className="space-y-4">
+                  {tour.answerCapsule.paragraphs.map((p, i) => (
+                    <p key={i} className="text-[17px] text-on-surface leading-relaxed">{p}</p>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Hand-picked internal links */}
+            {tour.internalLinks && tour.internalLinks.length > 0 && (
+              <section>
+                <h2 className="text-2xl font-semibold text-on-surface mb-4">Compare your options</h2>
+                <ul className="space-y-3">
+                  {tour.internalLinks.map((link) => (
+                    <li key={link.href}>
+                      <Link href={link.href} className="block group">
+                        <span className="text-primary font-medium group-hover:underline">{link.label}</span>
+                        <p className="text-sm text-on-surface-2 mt-0.5">{link.description}</p>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
 
             {/* Highlights */}
             <section>

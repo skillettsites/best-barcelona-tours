@@ -84,6 +84,35 @@ export default async function AttractionPage({ params }: { params: Params }) {
           ))}
         </div>
 
+        {a.sections && a.sections.length > 0 && (
+          <div className="mt-14 max-w-3xl space-y-10">
+            {a.sections.map((s) => (
+              <section key={s.heading}>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">{s.heading}</h2>
+                <div className="space-y-4 text-gray-700 leading-relaxed">
+                  {s.paragraphs.map((p, i) => (
+                    <p key={i}>{p}</p>
+                  ))}
+                </div>
+              </section>
+            ))}
+          </div>
+        )}
+
+        {a.relatedLinks && a.relatedLinks.length > 0 && (
+          <section className="mt-12 max-w-3xl rounded-xl bg-gray-50 p-6">
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Before you book</h2>
+            <ul className="space-y-3">
+              {a.relatedLinks.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-green-700 font-medium hover:underline">{link.label}</Link>
+                  <p className="text-sm text-gray-500 mt-0.5">{link.description}</p>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         <section className="mt-14">
           <h2 className="text-2xl font-bold text-gray-900 mb-5">{a.name} tickets: FAQ</h2>
           <FAQ faqs={a.faqs} />
