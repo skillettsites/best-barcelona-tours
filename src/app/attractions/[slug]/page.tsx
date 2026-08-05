@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { attractions, getAttractionBySlug } from '@/data/attractions';
 import { getTourBySlug } from '@/data/tours';
+import { getBlogPostBySlug } from '@/data/blog-posts';
 import { itemListSchema, breadcrumbSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL, SITE_CITY } from '@/lib/constants';
 import TourCard from '@/components/ui/TourCard';
@@ -36,6 +37,13 @@ export default async function AttractionPage({ params }: { params: Params }) {
   if (!a) notFound();
 
   const tours = a.tourSlugs.map((s) => getTourBySlug(s)).filter((t): t is NonNullable<typeof t> => Boolean(t));
+  // Drop any related link whose target post no longer exists, so deleting a post
+  // hides the card instead of shipping a live internal 404. The sibling sites
+  // (Cancun, Paris, Rome, Iceland) get this for free by storing slugs and looking
+  // them up; this site stores raw hrefs, so it has to be checked explicitly.
+  const relatedLinks = (a.relatedLinks ?? []).filter((l) =>
+    l.href.startsWith('/blog/') ? Boolean(getBlogPostBySlug(l.href.slice('/blog/'.length))) : true
+  );
   const top = tours[0];
   const fromPrice = Math.min(...tours.map((t) => t.price).filter(Boolean));
   // Only promise free cancellation where the GetYourGuide listings actually offer it.
@@ -113,11 +121,11 @@ export default async function AttractionPage({ params }: { params: Params }) {
           </div>
         )}
 
-        {a.relatedLinks && a.relatedLinks.length > 0 && (
+        {relatedLinks.length > 0 && (
           <section className="mt-12 max-w-3xl rounded-xl bg-gray-50 p-6">
             <h2 className="text-xl font-bold text-gray-900 mb-4">Before you book</h2>
             <ul className="space-y-3">
-              {a.relatedLinks.map((link) => (
+              {relatedLinks.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="text-green-700 font-medium hover:underline">{link.label}</Link>
                   <p className="text-sm text-gray-500 mt-0.5">{link.description}</p>
